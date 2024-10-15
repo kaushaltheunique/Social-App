@@ -2,11 +2,11 @@ import 'package:flutter/material.dart';
 import 'package:my_social_app/homepage.dart';
 
 void main() {
-  runApp(const MyApp());
+  runApp(const MySocialApp());
 }
 
-class MyApp extends StatelessWidget {
-  const MyApp({super.key});
+class MySocialApp extends StatelessWidget {
+  const MySocialApp({super.key});
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
